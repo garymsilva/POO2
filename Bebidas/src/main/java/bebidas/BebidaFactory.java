@@ -1,9 +1,4 @@
-package main.java.bebidas;
-
-import main.java.bebidas.Cafe;
-import main.java.bebidas.Cha;
-import main.java.bebidas.Refrigerante;
-import main.java.bebidas.Suco;
+package bebidas;
 
 /**
  * BebidaFactory

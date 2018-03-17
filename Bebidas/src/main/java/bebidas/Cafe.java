@@ -1,4 +1,4 @@
-package main.java.bebidas;
+package bebidas;
 
 /**
  * Cafe

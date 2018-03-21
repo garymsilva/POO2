@@ -1,14 +1,22 @@
 
 package leitura;
 
-
-public class Cliente 
-{
+public class Cliente {
      private String id;
      private String nome;
      private String telefone;
      private String email;
      private double totalCompras;
+     private String nascimento;
+
+    public Cliente(String id, String nome, String email, String nascimento, String telefone, String totalCompras) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+        this.nascimento = nascimento;
+        this.telefone = telefone;
+        this.totalCompras = Double.parseDouble(totalCompras);
+    }
 
     public String getId() {
         return id;

@@ -5,6 +5,8 @@ package leitura;
 
 import java.io.*;
 import java.util.LinkedList;
+import Cliente;
+import TotalCompras;
 
 
 public class MainReadCsv {
@@ -13,6 +15,6 @@ public class MainReadCsv {
        LeCsv leitorCsv = new LeCsv();               
        LinkedList<Cliente> clientes = leitorCsv.leCsvClientes();
        TotalCompras compras = new TotalCompras();
-       compras.calculaSomaTotal(clientes);        
+       System.out.println(compras.calculaSomaTotal(clientes));
     }         
 }

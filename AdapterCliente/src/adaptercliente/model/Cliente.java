@@ -9,6 +9,7 @@ public class Cliente implements ICliente{
     private String email;
     private String celular;
 
+    @Override
     public String getNomeCompleto() {
         return nomeCompleto;
     }
